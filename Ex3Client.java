@@ -25,7 +25,7 @@ public final class Ex3Client {
 
             byte[] bArray = new byte[test];
             in.read(bArray);
-            System.out.println(Integer.toHexString(bArray[0]));
+            //System.out.println(Integer.toHexString(bArray[0]));
 
             char[] hexValue = byteHex(bArray);
 
